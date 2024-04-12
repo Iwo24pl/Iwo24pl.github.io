@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Website - Iwo's Infowebsite</title>
+    <style>
+        button {
+          background-color: #263463;  /* green */
+          border: black;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          display: inline-block;
+          font-size: 16px;
+      }
+      </style>
 </head>
 <body>
-    
+    <h1>
+        Hi, how do you feel today? Maybe want some coffee?
+    </h1>
+    <h2>
+        Or the coding coffee?
+    </h2>
+    <h3>
+        If you want to see something cool press the button below... 
+    </h3>
+    <button onclick="go"><i><u>BUTTON</u></i></button>
+    <script>
+        function go() {
+            window.location.href = "finally.html";
+        }
+    </script>
 </body>
 </html>
