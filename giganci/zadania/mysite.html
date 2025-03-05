@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,10 @@
         body {
             text-align: center;
             font-family: "Comic Sans MS", "Comic Sans", cursive;
+            background: #59c173;
+            background: -webkit-linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+            background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+            color: white;
         }
 
         h1,h2,h3,h4,h5,h6 {
@@ -21,15 +25,37 @@
 
         a {
             text-decoration: none;
+            color: cyan;
         }
 
         a:hover {
             color: red;
         }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border-spacing: 0;
+        }
+        th, td {
+            padding: 10px;
+
+        }
+        button {
+            border-radius: 10px;
+            border: none;
+            background-color: grey;
+            color: white;
+            width: 100px;
+            height: 50px;
+        }
+        .info:hover {
+            cursor: help;
+        }
     </style>
 </head>
 
 <body>
+    <!--Początek kodu.-->
     <h1>Witam na 3dblog.example.com,</h1>
     <h2>czyli blogu poświęconym drukarkom 3d.</h2>
     <h3>zaraz więcej info</h3>
@@ -41,16 +67,46 @@
     <hr>
     <p><b>TAŃSZE OBUDOWANE DRUKARKI KTÓRE POLECAM:</b></p>
     <ol style="font-style: italic;">
-        <li><a href="https://eu.flashforge.com/en-eu/products/adventurer-5m-pro-3d-printer">Flashforge Adventurer 5M Pro</a></li>
+        <li><a href="https://eu.flashforge.com/en-eu/products/adventurer-5m-pro-3d-printer">Flashforge Adventurer 5M
+                Pro</a></li>
         <li><a href="https://eu.store.bambulab.com/products/p1s">Bambulab P1S</a></li>
-        <li><a href="https://www.creality.com/products/k1c-carbon-3d-printer?spm=..index.header_1.1">Creality K1C</a></li>
+        <li><a href="https://www.creality.com/products/k1c-carbon-3d-printer?spm=..index.header_1.1">Creality K1C</a>
+        </li>
     </ol>
     <hr>
-    <img style="width: 50%;" src="//upload.wikimedia.org/wikipedia/commons/e/ed/Robot_3D_print_timelapse_on_RepRapPro_Fisher.gif">
+    <img style="width: 50%;"
+        src="//upload.wikimedia.org/wikipedia/commons/e/ed/Robot_3D_print_timelapse_on_RepRapPro_Fisher.gif">
     <hr>
-    <p>Najlepsze drukarki FDM</p>
+    <p><b>Najlepsze drukarki FDM</b></p>
 
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/vBetalHhB_A" title="Who Makes the Best FDM Printers? - 2024 Best FDM Printer Recap" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/vBetalHhB_A"
+        title="Who Makes the Best FDM Printers? - 2024 Best FDM Printer Recap" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    <p><b>Drukarki i ich ceny</b></p>
+    <table>
+        <tr>
+            <th>Nazwa</th>
+            <th>Cena</th>
+        </tr>
+        <tr>
+            <td>Flashforge AD5M Pro</td>
+            <td>2 145 zł </td>
+        </tr>
+        <tr>
+            <td>Bambulab P1S</td>
+            <td>599 EURO* (Ok. 2500 zł)</td>
+        </tr>
+        <tr>
+            <td>Creality K1C</td>
+            <td>519 USD (Ok. 2000zł)</td>
+        </tr>
+    </table>
+    <p>* = promocja</p>
+    <hr>
+    <a href="/contactmysite.html"><button class="info">Informacje kontaktowe</button></a>
+    <!--Koniec Kodu-->
 </body>
 
 </html>
