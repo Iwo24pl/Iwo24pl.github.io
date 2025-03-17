@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container.vis</title>
+    <style>
+        #whole {
+            border: 3px dashed rgb(3, 20, 82);
+            border-radius: 7.5px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            bottom: 0;
+            width: 80%;
+            height: 92%;
+        }
+        
+
+        .info {
+            border: 3px double rgb(3, 20, 82);
+            border-radius: 7.5px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+        
+        #more {
+            border: 3px double rgb(3, 20, 82);
+            border-radius: 7.5px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+            font-size: 15px;
+        }
+
+        a {
+            color: rgb(0, 158, 158);
+            text-decoration: none;
+            transition-duration: 0.5s;
+        }
+        
+        .navigation {
+            display: inline;
+            padding: 15px;
+            font-size: 15px;
+        }
+        a:hover {
+            color: red;
+            transition-duration: 0.5s;
+        }
+
+        #more {
+        height: auto;
+        overflow-y: scroll;
+        height: 63.4vh;
+        }
+
+        li {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="whole">
+        <div class="info">
+        <h1><i>LINUX</i></h1>
+        <h3>- czyli system <w style="color: red">nie</w> dla opornych.</h3>
+        </div>
+        <div class="info">
+        <ul>
+            <li class="navigation"><a href="/giganci/linux/arch">Arch! (for da hardies)</a></li>
+            <li class="navigation"><a href="/giganci/linux/debian">Debian (easy arch)</a></li>
+            <li class="navigation"><a href="/giganci/linux/ubuntu">Ubuntu (lets begginer!)</a></li>
+        </ul>
+        </div>
+        <div id="more">
+            <h2><i>Arch</i></h2>
+            <p>- System dla opornych!</p>
+            <p>Instalacja:</p>
+            <ol>
+                <li>Wejdź na stronę <a href="https://archlinux.org">Arch Linux</a>.</li>
+                <li>Pobierz najnowszy <a href="https://archlinux.org/download/">plik</a>. (Netboot)</li>
+                <li>Użyj programu <a href="https://www.wikihow.com/Use-Rufus">Rufus</a> by nagrać dane pliku iso na dysk USB. (Tryb DD zalecany)</li>
+                <li>Podepnij dysk USB do urządzenia, na którym będziesz instalował Arch Linux.</li>
+                <li>Włącz komputer klikając <a href="https://www.wikihow.com/Get-to-the-Boot-Menu-on-Windows">przycisk Boot Menu.</a></li>
+                <li>Wybierz USB</li>
+                <li>Nie bój się terminala! Jest prosty!</li>
+                <li>Po włączeniu wpisz archinstall.</li>
+                <li>Przejdź przez każdą opcję. <a href="https://wiki.archlinux.org/title/Archinstall">WIĘCEJ INFO</a></li>
+                <li>Po instalacji kliknij reboot.</li>
+            </ol>
+            <p>Bravo! Zainstalowałeś Arch Linux!</p>
+            <p>Możesz być dumny.</p>
+            <img style="height: 400px;" src="/giganci/assets/arch.png">
+        </div>
+    </div>
+</body>
+</html>
